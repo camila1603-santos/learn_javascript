@@ -89,4 +89,37 @@ else
     console.log('Driving too slow')
 
 
-// Switch and Case
+// Switch and Case (ele não para quando encontra igual o if / else, precisa usar o break)
+
+let airport = 'MCO' 
+
+switch (airport) {
+    case 'MCO':
+        console.log('Orlando')
+        break
+    case 'JFK':
+        console.log('John F. Kennedy')
+        break
+    case 'SEA':
+        console.log('Seatle')
+        break
+    default:
+        console.log('Unknown')  //para quando a opção não tem em nenhuma sentença        
+}
+
+//For loop - for (var condição incremento)
+
+for (i = 1; i <= 10; i++) {
+    console.log('Número ', i)
+} 
+
+// While - variável vai para fora
+
+j = 1
+
+while (j <= 10) {
+    console.log('Número ', j)
+    j++
+}
+
+// Do while loop - For in loop - For of loop
